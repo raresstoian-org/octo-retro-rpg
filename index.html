@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Octo Retro RPG</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>OCTO RETRO RPG</h1>
+    <div class="hud">
+      <span>HP: <strong id="hp">10</strong></span>
+      <span>GOLD: <strong id="gold">0</strong></span>
+      <span>FLOOR: <strong id="floor">1</strong></span>
+    </div>
+    <canvas id="gameCanvas" width="320" height="320"></canvas>
+    <p id="message">Use Arrow Keys or WASD to move and attack!</p>
+    <button id="restartBtn">Restart Game</button>
+  </div>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
